@@ -18,7 +18,7 @@ const LiveBetss = props => {
                         <div className="inner">
                             <div className="group">
                                 <div className="icon"><i className="ripple"></i></div>
-                                <h3>Live Auctions</h3>
+                                <h3>Live Bets</h3>
                             </div>
                             <p className="desc">Revolutionizing the way YOU challenge your friends.</p>
                         </div>

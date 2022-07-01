@@ -17,7 +17,7 @@ const LiveBets = props => {
                         <div className="inner">
                             <div className="group">
                                 <div className="icon"><i className="ripple"></i></div>
-                                <h3>Tranding Bets</h3>
+                                <h3>Trending Bets</h3>
                             </div>
                             <p className="desc">Get Matched With The Right Bet proposals In Minutes to shake on. </p>
                         </div>

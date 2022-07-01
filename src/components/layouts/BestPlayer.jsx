@@ -13,7 +13,7 @@ const BestPlayer = props => {
                     <div className="sc-heading style-2">
                         <div className="content-left">
                             <div className="inner">
-                                <h3>Overal Leaderboard</h3>
+                                <h3>Top Players</h3>
                             </div>
                         </div>
                         <div className="content-right">

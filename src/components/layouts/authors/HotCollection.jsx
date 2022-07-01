@@ -10,6 +10,7 @@ const HotCollection = props => {
         <div className="container">
             <div className="row">
                 
+            <h3>Public Groups</h3>
                 <div className="col-md-12">
                     <div className="swiper-container popular-coll">
                         <div className="swiper-wrapper">

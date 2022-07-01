@@ -11,7 +11,7 @@ const Create = props => {
                     <div className="sc-heading style-2 create-and-sell">
                         <div className="content-left">
                             <div className="inner">
-                                <h3>Create, Bet and sell your NFTs</h3>
+                                <h3>Create, Bet and Sell your NFTs</h3>
                                 <p className="desc">The first ever Play-to-Earn, Peer-to-Peer betting game on the Polygon Blockchain.</p>
                             </div>
                         </div>
