@@ -32,16 +32,11 @@ const menus = [
         namesub: [
             {
                 id: 1,
-                sub: 'Wearables',
-                links: '/Marketo'
-            },
-            {
-                id: 2,
                 sub: 'Mint NFT',
                 links: '/Marketo'
             },
             {
-                id: 3,
+                id: 2,
                 sub: 'HSB Swap',
                 links: '/Marketo'
             },
