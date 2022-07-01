@@ -10,6 +10,11 @@ import DarkMode from "./DarkMode"
 
 import icon from '../../assets/images/icon/connect-wallet.svg'
 
+const logoSize = {
+    height: "4.2525em",
+    width: "20.25em"
+}
+
 const Header = () => {
     const { pathname } = useLocation();
     const headerRef = useRef (null)
@@ -52,8 +57,8 @@ const Header = () => {
                             <div id="site-logo" className="clearfix">
                                 <div id="site-logo-inner">
                                     <Link to="/" rel="home" className="main-logo">
-                                        <img id="logo_header" className='logo-dark' src={logo} srcSet={logo2x} alt="nft-gaming" />
-                                        <img id="logo_header" className='logo-light' src={logolight} srcSet={logolight2x} alt="nft-gaming" />
+                                        <img id="logo_header" className='logo-dark' src={logo} srcSet={logo2x} alt="nft-gaming" style={logoSize} />
+                                        <img id="logo_header" className='logo-light' src={logolight} srcSet={logolight2x} alt="nft-gaming" style={logoSize} />
                                     </Link>
                                 </div>
                             </div>
