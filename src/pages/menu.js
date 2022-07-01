@@ -35,6 +35,16 @@ const menus = [
                 sub: 'Wearables',
                 links: '/Marketo'
             },
+            {
+                id: 2,
+                sub: 'Mint NFT',
+                links: '/Marketo'
+            },
+            {
+                id: 3,
+                sub: 'HSB Swap',
+                links: '/Marketo'
+            },
         ],
     },
     {
@@ -49,31 +59,21 @@ const menus = [
             {
                 id: 2,
                 sub: 'Gitbook',
-                links: '#'
+                links:'to="gitbook" params={myParams} target="_blank"'
             },
         ],
     },
     {
         id: 2,
-        name: 'My Account',
+        name: 'Profile',
         namesub: [
             {
                 id: 1,
-                sub: 'Account',
+                sub: 'Profile',
                 links: '/namez'
             },
             {
-                id: 2,
-                sub: 'Items',
-                links: '/namez'
-            },
-            {
-                id: 3,
-                sub: 'History',
-                links: '/names'
-            },
-            {
-                id: 4,
+                id: 1,
                 sub: 'Disconnect',
                 links: '#'
             },

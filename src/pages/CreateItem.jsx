@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import Header from '../components/header/Header';
-import dataHotCollection2 from '../assets/fake-data/dataHotCollection2';
-import TopPlayer from '../components/layouts/creacte-item/TopPlayer';
 import Create from '../components/layouts/creacte-item/Create';
 import  Newsletters from '../components/layouts/Newsletters';
 import Footer from '../components/footer/Footer';
@@ -30,7 +28,6 @@ return <div>
             </div>
         </div>
     </section>
-    <TopPlayer data={dataHotCollection2} />
     <Create />
     <Newsletters />
     <Footer />
