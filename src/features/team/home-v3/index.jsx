@@ -97,7 +97,7 @@ function Team(props) {
                             </Swiper>
                             <Swiper
                                 
-                                // onSwiper={setThumbsSwiper}
+                                 onSwiper={setThumbsSwiper}
                                 spaceBetween={20}
                                 breakpoints={{
                                     0: {
